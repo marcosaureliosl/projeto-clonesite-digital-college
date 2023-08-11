@@ -18,6 +18,10 @@ Ao implementar estilos globais, aprendi a importância de criar uma base sólida
 
 Em resumo, o uso de estilos globais foi fundamental para criar um design harmonioso e uniforme em todo o projeto. Através dessa abordagem, pude explorar o poder da CSS para controlar a aparência visual dos elementos e compreender a importância de manter uma coesão estilística em todas as partes do site. Essas habilidades adquiridas serão valiosas em futuros projetos de desenvolvimento web, onde a consistência visual desempenha um papel crucial na experiência do usuário.
 
+## Demo do Projeto
+
+URL: (https://marcosaureliosl.github.io/projeto-clonesite-digital-college/)
+
 # Codigo
 
 ```
@@ -55,3 +59,8 @@ a { text-decoration: none;}
 
 
 ![2023-08-11](https://github.com/marcosaureliosl/projeto-clonesite-digital-college/assets/127764997/cb4fdc27-4ce0-47c1-a759-e61c303eedf0)
+
+
+# Agradecimentos 
+
+Agradeço imensamente a todos que acompanham o meu progresso. Suas palavras de encorajamento e apoio têm sido inspiradoras. Cada gesto e incentivo fortalecem minha jornada e me motivam a alcançar novas conquistas. Juntos, continuaremos a crescer e evoluir. Muito obrigado por fazerem parte desse caminho.
