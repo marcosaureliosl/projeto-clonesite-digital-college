@@ -1,0 +1,255 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+strong {font-weight: bold;}
+i, em { font-style: italic;}
+a { text-decoration:none}
+
+strong { font-weight: bold;}
+i,em {font-style: italic;}
+a { text-decoration: none;}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #003649;
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    padding: 20px 0;
+}
+.container {
+    width: 356px;
+    margin: 0 auto;
+}
+#box-1 {
+    width: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+#box-1 #logo {
+    max-width: 200px;
+    margin: 0 auto 20px;
+}
+#box-1 #logo img {
+    width: 100%;
+}
+#box-1 a {
+    height: 32px;
+    width: 100%;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 36px;
+    margin:0 0 20px;
+    padding: 15px 0 0;
+}
+#box-1 a#programacao {
+    background: #c92071;
+}
+#box-1 a#data { 
+    background:#F9E784;
+     color:#000
+    }
+#box-1 a#marketing { 
+    background:#623CEA;
+}
+#box-1 a#ciber { 
+    background:#46c878;
+}
+
+#box-1 a:hover {
+    transform: scale(1.1); 
+    transition: all .2s ease-in-out;
+}
+
+#box-1 a:hover {
+    transform: scale(1.1); 
+    transition: all .2s ease-in-out;
+}
+
+
+#box-2 { 
+    width:100%; 
+    float:left; 
+    display:flex;
+    text-align:center;
+}
+
+#box-2 h2 { 
+    font-size:26px;
+     font-weight:600
+    }
+#box-2 p { 
+    font-size:12px;
+     margin:0 0 20px 
+    }
+
+#box-2 a {
+    height:32px;
+    width:100%;
+    display:block; 
+    color:#FFF; 
+    font-size:14px;
+    font-weight:600; 
+    text-align:center;
+    border:1px solid #FFF;
+    border-radius:36px;
+    margin: 0 0 20px;
+    padding:15px 0 0; 
+    background:#C92071;
+}
+#box-2 a:hover {
+    transform: scale(1.1);
+     transition: all .2s ease-in-out;
+    }
+
+#box-3 {
+    width:100%;
+    float:left;
+    display:block;
+    text-align:center;
+    margin:20px 0 0;
+}
+#box-3 h2 { 
+    font-size:26px; 
+    font-weight:600;
+}
+#box-3 p { 
+    font-size:12px; 
+    margin:0 0 20px;
+}
+    
+#box-3 .cada_imersao {
+    width:100%; 
+    display:block; 
+    color:#FFF; 
+    font-size:14px; 
+    font-weight:600; 
+    text-align:center; 
+    border:1px solid #FFF;  
+    margin:0 0 20px; 
+    padding: 0 0; 
+    border-radius:20px; 
+    background:#C92071;
+}
+#box-3 .cada_imersao img {
+    border-radius:20px 20px 0 0; 
+    width:100%;
+}
+
+#box-3 #foguinho img {
+    width: 10%;
+}
+
+#box-3 .cada_imersao #botao { 
+    margin: 10px 0;
+}
+
+#box-3 .cada_imersao:hover {
+    transform: scale(1.1); 
+    transition: all .2s ease-in-out;
+}
+
+#box-4 { 
+    width:100%;
+    float:left;
+    display:block; 
+    text-align:center
+}
+
+#box-4 a { 
+    height:32px;
+    width:100%;
+    display:block; 
+    color:#FFF; 
+    font-size:14px;
+    font-weight:600; 
+    text-align:center;
+    border:1px solid #FFF;
+    border-radius:36px;
+    margin:0 0 20px;
+    padding:15px 0 0; 
+    background:#C92071;
+}
+#box-4 a:hover {
+    transform: scale(1.1); 
+    transition: all .2s ease-in-out;
+}
+
+#box-5 { 
+    width:100%;
+     float:left;
+      display:block;
+       text-align:center;
+        margin:0 0 20px
+    }
+#box-5 svg {
+    max-width: 30px; 
+     margin: 0 7px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+@media only screen and (min-width: 280px) and (max-width: 736px) {
+	body { overflow-x:hidden; top:0 !important}
+	.menu-mobile {
+        display: block;
+		float:right;
+		text-align:left;
+		margin:19px 0 0 46px;
+		cursor:pointer; z-index:999; position:relative;
+    }
+    #nav.menu-cel {
+        display: block !important;
+    }
+	#nav  { display:none !important}
+	
+	.container { width:94% !important; padding:0 3%}
+	
+
+
+}
